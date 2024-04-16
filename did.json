@@ -8,14 +8,14 @@
     "authentication": ["did:web:vivek-bodar.github.io:iataIssuer#key-1"],
     "service": [
         {
-            "id": "did:web:vivek-bodar.github.io:iataHolder#did-communication",
+            "id": "did:web:vivek-bodar.github.io:iataIssuer#did-communication",
             "type": "did-communication",
             "serviceEndpoint": "http://iata_issuer_agent:6032",
             "accept": [
                 "didcomm/aip2;env=rfc19"
             ],
             "recipient_keys": [
-                "did:web:vivek-bodar.github.io:iataHolder#key-1"
+                "did:web:vivek-bodar.github.io:iataIssuer#key-1"
             ],
             "routing_keys": [],
             "priority": 1
