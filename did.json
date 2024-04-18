@@ -15,7 +15,7 @@
                 "didcomm/aip2;env=rfc19"
             ],
             "recipient_keys": [
-                "did:web:vivek-bodar.github.io:iataIssuer#key-1"
+               "51UkaizpFTQHqcvsgssBxYovqAHZr5BLf9ggqBntRn9e"
             ],
             "routing_keys": [],
             "priority": 1
